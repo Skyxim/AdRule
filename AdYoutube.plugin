@@ -18,6 +18,6 @@ URL-REGEX,https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost,REJECT
  URL-REGEX,https?:\/\/[\w-]+\.googlevideo\.com\/.*&(oad|ctier),REJECT
 
 [URL Rewrite]
-ctier=[A-Z] citer=A 302
+#ctier=[A-Z] citer=A 302
 [MITM]
 hostname = *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
