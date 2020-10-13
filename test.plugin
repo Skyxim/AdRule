@@ -19,4 +19,4 @@
 #^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_ - reject-200
 
 [MITM]
-#hostname = *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
+hostname = *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
