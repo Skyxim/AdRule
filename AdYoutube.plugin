@@ -1,4 +1,6 @@
-
+#合并于https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Plugin/YouTubeAdsTest.plugin
+#https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Plugin/YouTubeAds.plugin
+#并删除错误会导致卡广告部分
 [Rule]
 # YouTube 去广告
 URL-REGEX,https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost,REJECT
@@ -10,10 +12,10 @@ URL-REGEX,https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost,REJECT
  URL-REGEX,https?:\/\/premiumyva.appspot.com\/vmclickstoadvertisersite,REJECT
  URL-REGEX,https?:\/\/s0.2mdn.net\/ads\/,REJECT
  URL-REGEX,https?:\/\/stats.tubemogul.com\/stats\/,REJECT
- URL-REGEX,https?:\/\/youtubei.googleapis.com\/.+ad_break,REJECT
- URL-REGEX,https?:\/\/youtubei.googleapis.com\/youtubei\/.+(ad|log),REJECT
+ URL-REGEX,https?:\/\/youtubei.googleapis.com\/.*ad_break,REJECT
+ URL-REGEX,https?:\/\/youtubei.googleapis.com\/youtubei\/.*(ad|log),REJECT
  URL-REGEX,https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adformat,REJECT
- URL-REGEX,https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier),REJECT
+ URL-REGEX,https?:\/\/[\w-]+\.googlevideo\.com\/.*&(oad|ctier),REJECT
 
 [URL Rewrite]
 ctier=[A-Z] citer=A 302
