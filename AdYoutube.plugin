@@ -19,8 +19,5 @@ URL-REGEX,https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost,REJECT
 
 [URL Rewrite]
 ctier=[A-Z] citer=A 302
-
-[MITM]
-hostname = *.googlevideo.com
 [MITM]
 hostname = *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
