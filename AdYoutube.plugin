@@ -15,7 +15,7 @@ URL-REGEX,https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost,REJECT
  URL-REGEX,https?:\/\/youtubei.googleapis.com\/.*ad_break,REJECT
  URL-REGEX,https?:\/\/youtubei.googleapis.com\/youtubei\/.*(ad|log),REJECT
  URL-REGEX,https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adformat,REJECT
- URL-REGEX,https?:\/\/[\w-]+\.googlevideo\.com\/.*&(oad|ctier),REJECT
+ URL-REGEX,https?:\/\/[\w]+\.googlevideo\.com\/.*&(oad|ctier),REJECT
 
 [URL Rewrite]
 #ctier=[A-Z] citer=A 302
