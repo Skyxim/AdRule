@@ -19,6 +19,6 @@ URL-REGEX,https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adformat,REJECT
 
 [URL Rewrite]
 ^https?:\/\/[\s\S]+\.googlevideo\.com\/.*&(oad|ctier) - reject-200
-ctier=[A-Z] citer=A 302
+#ctier=[A-Z] citer=A 302
 [MITM]
 hostname = *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
