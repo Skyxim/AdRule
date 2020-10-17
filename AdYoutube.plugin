@@ -19,6 +19,6 @@
 ^https?:\/\/youtubei.googleapis.com\/youtubei\/.+(ad|log) - reject-200
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adformat - reject-200
 ^https?:\/\/[\w]+\.googlevideo\.com\/.*&(oad|ctier) - reject-200
-ctier=[B-Z] citer=A 302
+ctier=L citer=A 302
 [MITM]
 hostname = *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
