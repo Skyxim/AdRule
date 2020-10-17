@@ -16,9 +16,9 @@ URL-REGEX,https?:\/\/stats.tubemogul.com\/stats\/,REJECT
 URL-REGEX,https?:\/\/youtubei.googleapis.com\/.+ad_break,REJECT
 URL-REGEX,https?:\/\/youtubei.googleapis.com\/youtubei\/.+(ad|log),REJECT
 URL-REGEX,https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adformat,REJECT
-URL-REGEX,https?:\/\/[\s\S]+\.googlevideo\.com\/.*&(oad|ctier),REJECT
+#URL-REGEX,https?:\/\/[\w]+\.googlevideo\.com\/.*&(oad|ctier),REJECT
 [URL Rewrite]
-#^https?:\/\/[\s\S]+\.googlevideo\.com\/.*&(oad|ctier) - reject-200
-#ctier=[A-Z] citer=A 302
+^https?:\/\/[\w]+\.googlevideo\.com\/.*&(oad|ctier) - reject-200
+ctier=[A-Z] citer=A 302
 [MITM]
 hostname = *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
