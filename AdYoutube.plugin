@@ -1,24 +1,8 @@
-#合并于https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Plugin/YouTubeAdsTest.plugin
-#https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Plugin/YouTubeAds.plugin
-#并删除错误会导致卡广告部分
- 
 
 [Rule]
 
 [URL Rewrite]
-^https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost - reject-200
-^https?:\/\/.+.youtube.com\/api\/stats\/ads - reject-200
-^https?:\/\/.+.youtube.com\/get_midroll_ - reject-200
-^https?:\/\/.+.youtube.com\/pagead\/ - reject-200
-^https?:\/\/.+.youtube.com\/ptracking\? - reject-200
-^https?:\/\/.+.youtube.com\/_get_ads - reject-200
-^https?:\/\/premiumyva.appspot.com\/vmclickstoadvertisersite - reject-200
-^https?:\/\/s0.2mdn.net\/ads\/ - reject-200
-^https?:\/\/stats.tubemogul.com\/stats\/ - reject-200
-^https?:\/\/youtubei.googleapis.com\/.+ad_break - reject-200
-^https?:\/\/youtubei.googleapis.com\/youtubei\/.+(ad|log) - reject-200
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adformat - reject-200
-^https?:\/\/[\w]+\.googlevideo\.com\/.*&(oad|ctier) - reject-200
-ctier=L citer=A 302
+(^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) url 302 $1$3
+^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) url reject
 [MITM]
-hostname = *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
+hostname = *.googlevideo.com
