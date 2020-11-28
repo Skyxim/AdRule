@@ -1,3 +1,5 @@
-DOMAIN-SUFFIX,onenote.com
 DOMAIN-SUFFIX,d.docs.live.net
 DOMAIN-SUFFIX,roaming.officeapps.live.com
+DOMAIN-KEYWORD,onenote
+DOMAIN-SUFFIX,login.microsoft.com
+DOMAIN-SUFFIX,outlook.office365.com
