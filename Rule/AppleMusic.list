@@ -1,4 +1,5 @@
-DOMAIN-SUFFIX,audio.itunes.apple.com
-DOMAIN-SUFFIX,blobstore.apple.com 
-DOMAIN-KEYWORD,blobstore-aooke.com.akadns.com
+payload:
+  - DOMAIN-SUFFIX,audio.itunes.apple.com
+  - DOMAIN-SUFFIX,blobstore.apple.com 
+  - DOMAIN-KEYWORD,blobstore-aooke.com.akadns.com
 
