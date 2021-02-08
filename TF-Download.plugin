@@ -1,5 +1,5 @@
 #推荐使用NobyDa的原始地址，https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_TF_Download.conf
-#将这个订阅到复写订阅
+#将这个订阅到脚本订阅
 [Mitm]
 hostname=testflight.apple.com
 [Script]
