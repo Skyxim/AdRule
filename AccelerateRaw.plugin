@@ -1,4 +1,4 @@
-#cdn订阅地址https://raw.subloon.cf/Skyxim/my-rule/main/AccelerateRaw.plugin
+#cdn订阅地址https://raw.subloon.cf/Skyxim/my-rule/main/AccelerateRaw.plugin or https://raw.sevencdn.com/Skyxim/my-rule/main/AccelerateRaw.plugin 
 
 [MITM]
 hostname=github.com,raw,githubusercontent.com
