@@ -1,3 +1,5 @@
+[HOSTNAME]
 
+[URL Rewrite]
 ^https?:\/\/raw.githubusercontent.com https://raw.subloon.cf 302
 (^https?:\/\/github.com)(\/.*\/*)\/raw(\/.*\/.*) https://raw.subloon.cf$2$3
