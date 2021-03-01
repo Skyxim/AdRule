@@ -3,8 +3,9 @@
 #or https://raw.subloon.cf/Skyxim/my-rule/main/AccelerateRaw/AccelerateRaw.rewrite
 #or https://raw.sevencdn.com/Skyxim/my-rule/main/AccelerateRaw/AccelerateRaw.rewrite 
 
-[MITM]
+
 hostname=github.com,raw.githubusercontent.com
-[URL Rewrite]
-^https?:\/\/raw.githubusercontent.com https://raw.sevencdn.com 302
-(^https?:\/\/github.com)(\/.*\/*)\/raw(\/.*\/.*) https://raw.sevencdn.com$2$3 302
+
+
+^https?:\/\/raw.githubusercontent.com url 302 https://raw.sevencdn.com
+(^https?:\/\/github.com)(\/.*\/*)\/raw(\/.*\/.*) url 302 https://raw.sevencdn.com$2$3
