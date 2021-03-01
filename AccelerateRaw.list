@@ -1,2 +1,3 @@
-raw.githubusercontent.com loon.subrule.cf 302
-(https?:\/\/github.com)(\/.*\/*)\/raw(\/.*\/.*) loon.subrule.cf$2$3
+
+^https?:\/\/raw.githubusercontent.com https://raw.subloon.cf 302
+(^https?:\/\/github.com)(\/.*\/*)\/raw(\/.*\/.*) https://raw.subloon.cf$2$3
