@@ -1,9 +1,0 @@
-[Remote Rule]
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,policy=REJECT
-[URL Rewrite]
-
-[Remote Rewrite]
-https://raw.githubusercontent.com/Skyxim/AdRule/main/rewrite/Ad.conf, tag=自定义广告拦截, enabled=true
