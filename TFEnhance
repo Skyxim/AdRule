@@ -1,6 +1,6 @@
 #包含NoByDa国区解锁tf限制和tf域名规则，需要指定插件规则，遇到tf域名污染可以指定为自己的代理策略组，无污染可指定Direct
 [Rule]
-DOMAIN-SUFFIX,testflight.apple.com,PROXY
+DOMAIN-SUFFIX,testflight.apple.com
 [Mitm]
 hostname=testflight.apple.com
 [Script]
