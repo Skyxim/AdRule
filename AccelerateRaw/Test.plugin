@@ -6,5 +6,5 @@
 [MITM]
 hostname=github.com,raw.githubusercontent.com
 [URL Rewrite]
-^https?:\/\/raw.githubusercontent.com https://raw.githubusercontents.com 302
+^https?:\/\/raw.githubusercontent\.com https://raw.githubusercontents.com 302
 (^https?:\/\/github.com)(\/.*\/*)\/raw(\/.*\/.*) https://raw.githubusercontents.com$2$3 302
