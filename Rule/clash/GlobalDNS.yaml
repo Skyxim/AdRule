@@ -1,0 +1,8 @@
+payload:
+  - 'dns.google'
+  - 'one.one.one.one'
+  - 'doh.opendns.com'
+  - 'doh.familyshield.opendns.com'
+  - 'dns.adguard.com'
+  - 'dns-family.adguard.com'
+  - 'dns-unfiltered.adguard.com'
