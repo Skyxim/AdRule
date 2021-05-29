@@ -1,4 +1,5 @@
 payload:
+  - 'dns.google.com'
   - 'dns.google'
   - 'one.one.one.one'
   - 'doh.opendns.com'
