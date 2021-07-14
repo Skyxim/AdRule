@@ -7,5 +7,7 @@
 [MITM]
 hostname=github.com,raw.githubusercontent.com
 [URL Rewrite]
-(^https?:\/\/raw.githubusercontent.com)\/(.+?)\/(.+?)\/(.+?)\/(.*) https://cdn.jsdelivr.net/gh/$2/$3@$4/$5 302
-(^https?:\/\/github.com)\/(.+?)\/(.+?)\/raw\/(.+?)\/(.*) https://cdn.jsdelivr.net/gh/$2/$3@$4/$5 302
+#(^https?:\/\/raw.githubusercontent.com)\/(.+?)\/(.+?)\/(.+?)\/(.*) https://cdn.jsdelivr.net/gh/$2/$3@$4/$5 302
+#(^https?:\/\/github.com)\/(.+?)\/(.+?)\/raw\/(.+?)\/(.*) https://cdn.jsdelivr.net/gh/$2/$3@$4/$5 302
+^https?:\/\/raw.githubusercontent.com https://raw.sevencdn.com 302
+(^https?:\/\/github.com)(\/.*\/*)\/raw(\/.*\/.*) https://raw.sevencdn.com$2$3 302
